@@ -1,0 +1,186 @@
+/* .default {
+  --background: #{$color-white};
+  --tint: #{$color-light};
+  --contrast: #{$color-black};
+  --textContrast: #{$color-white};
+  --textPrimary: #{$color-purple};
+  --textSecondary: color-mod(#{$color-purple} lightness(70%));
+  --lightBlue: transparentize(#{$color-blue}, 0.06);
+  --lightOrange: transparentize(#{$color-orange}, 0.06);
+  --lightGreen: transparentize(#{$color-green}, 0.06);
+  --lightRed: transparentize(#{$color-red}, 0.06);
+  --lightGrey: transparentize(#{$color-grey}, 0.06);
+}*/
+
+//light
+.theme1 {
+  // Background Colors
+  --b1: #{$color-white};
+  --b2: #{$color-softWhite};
+
+  // Text Colors
+  --t1: #{$color-black}; // Primary Text Color
+  --t2: #{$color-white}; // Invert Text Color
+  --t3: #767676; // Light Contrast Text Color
+  --t4: #{$color-white}; // General Color, mainly texts, used over primary gradient
+
+  // Border Colors
+  --br1: #{$border-color-lightGray};
+  --br2: #{$border-color-dark};
+  --br3: #{$border-color-transparent}; // Borders
+  --br4: #{$border-color-transparent}; // Not used, placehodler for future expansion
+
+  //Gradients
+  --g1l: #{$gradient-color-orange}; // Primary Gradient Color 1
+  --g1r: #{$gradient-color-fusha}; //  Primary Gradient Color 2
+  --g2l: #{$gradient-color-lightRed}; // Alert Gradient Color 1
+  --g2r: #{$gradient-color-red}; //  Alert Gradient Color 2
+  --g3t: #{$gradient-color-lightGrey}; // Modal Bg Gradient Color 1
+  --g3b: #{$color-white}; // Modal Bg Gradient Color 2
+  --g4t: #{$color-white};
+  --g4b: #{$color-white-transparent};
+
+  // Icons
+  --i1: #{$icon-color-dark}; // Primary icon color
+
+  // Shadows
+  --s1: #{$shadow-color-light}; // Primary shadow color
+
+  // Tints
+  --tint: #{$tint-color-light}; // Primary tinted color
+}
+
+//dark
+.theme2 {
+  --b1: #{$color-black};
+  --b2: #{$color-dark};
+  --t1: #{$color-white};
+  --t2: #{$color-black};
+  --t3: #929292;
+  --t4: #{$color-white}; // Gradient Text Color
+
+  --br1: #{$border-color-dark};
+  --br2: #{$border-color-lightGray};
+  --br3: #{$border-color-transparent};
+  --br4: #{$border-color-transparent};
+
+  --g1l: #{$gradient-color-orange};
+  --g1r: #{$gradient-color-fusha};
+  --g2l: #{$gradient-color-lightRed};
+  --g2r: #{$gradient-color-red};
+  --g3t: #{$color-lightdark};
+  --g3b: #{$color-black};
+  --g4t: #{$color-dark};
+  --g4b: #{$color-dark-transparent};
+  --i1: #{$icon-color-light};
+  --s1: #{$shadow-color-dark};
+  --tint: #{$tint-color-dark};
+}
+
+//sun
+.theme3 {
+  --b1: #{$color-moon-dark};
+  --b2: #{$color-moon-light};
+  --t1: #{$color-white};
+  --t2: #{$color-black};
+  --t3: #929292;
+  --t4: #{$color-white}; // Gradient Text Color
+
+  --br1: #{$border-color-dark};
+  --br2: #{$border-color-lightGray};
+  --br3: #{$border-color-transparent};
+  --br4: #{$border-color-transparent};
+
+  --g1l: #{$gradient-color-moon};
+  --g1r: #{$gradient-color-moonDark};
+  --g2l: #{$gradient-color-lightRed};
+  --g2r: #{$gradient-color-red};
+  --g3t: #{$color-lightdark};
+  --g3b: #{$color-black};
+  --g4t: #{$color-dark};
+  --g4b: #{$color-dark-transparent};
+  --i1: #{$icon-color-light};
+  --s1: #{$shadow-color-dark};
+  --tint: #{$tint-color-dark};
+}
+
+//moon
+.theme4 {
+  --b1: #{$color-white};
+  --b2: #{$color-softWhite};
+  --t1: #{$color-black};
+  --t2: #{$color-white};
+  --t3: #767676;
+  --t4: #{$color-white}; // Gradient Text Color
+
+  --br1: #{$border-color-lightGray};
+  --br2: #{$border-color-dark};
+  --br3: #{$border-color-transparent};
+  --br4: #{$border-color-transparent};
+
+  --g1l: #{$gradient-color-orange};
+  --g1r: #{$gradient-color-sun};
+  --g2l: #{$gradient-color-lightRed};
+  --g2r: #{$gradient-color-red};
+  --g3t: #{$gradient-color-lightGrey};
+  --g3b: #{$color-white};
+  --g4t: #{$color-white};
+  --g4b: #{$color-white-transparent};
+  --i1: #{$icon-color-dark};
+  --s1: #{$shadow-color-light};
+  --tint: #{$tint-color-light};
+}
+
+//dark blueberry
+.theme5 {
+  --b1: #{$color-black};
+  --b2: #{$color-dark};
+  --t1: #{$color-white};
+  --t2: #{$color-black};
+  --t3: #929292;
+  --t4: #{$color-white}; // Gradient Text Color
+
+  --br1: #{$border-color-dark};
+  --br2: #{$border-color-lightGray};
+  --br3: #{$border-color-transparent};
+  --br4: #{$border-color-transparent};
+
+  --g1l: #{$gradient-color-berry};
+  --g1r: #{$gradient-color-berry};
+  --g2l: #{$gradient-color-lightRed};
+  --g2r: #{$gradient-color-red};
+  --g3t: #{$color-lightdark};
+  --g3b: #{$color-black};
+  --g4t: #{$color-dark};
+  --g4b: #{$color-dark-transparent};
+  --i1: #{$icon-color-light};
+  --s1: #{$shadow-color-dark};
+  --tint: #{$tint-color-dark};
+}
+
+//dark earmark
+.theme6 {
+  --b1: #{$color-black};
+  --b2: #{$color-dark};
+  --t1: #{$color-white};
+  --t2: #{$color-black};
+  --t3: #929292;
+  --t4: #{$color-black}; // Gradient Text Color
+
+  --br1: #{$border-color-dark};
+  --br2: #{$border-color-lightGray};
+  --br3: #{$border-color-dark-transparent};
+  --br4: #{$border-color-dark-transparent};
+
+  --g1l: #{$gradient-color-teal};
+  --g1r: #{$gradient-color-lime};
+  --g2l: #{$gradient-color-lightRed};
+  --g2r: #{$gradient-color-red};
+  --g3t: #{$color-lightdark};
+  --g3b: #{$color-black};
+  --g4t: #{$color-dark};
+  --g4b: #{$color-dark-transparent};
+  --i1: #{$icon-color-light};
+  --s1: #{$shadow-color-dark};
+  --tint: #{$tint-color-dark};
+}
