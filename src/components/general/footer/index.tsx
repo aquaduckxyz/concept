@@ -2,8 +2,6 @@ import React, { Dispatch, SetStateAction, useEffect } from 'react';
 
 import Image from 'next/image';
 
-import { motion } from 'framer-motion';
-
 import Logo from 'src/components/general/assets/images/png/logo.png';
 import Duck from 'src/components/general/assets/images/png/duck.png';
 import TitleSvg from 'src/components/general/assets/images/svg/title.svg';
@@ -15,8 +13,8 @@ interface Props {
 const Footer = (props: Props) => {
   return (
     <div className="tw-w-full tw-h-fit tw-flex tw-justify-center">
-      <motion.div
-        layout
+      <div
+        
         className="tw-border-t tw-border-[#1D8DFF] tw-flex tw-h-fit tw-w-full tw-select-none tw-justify-between tw-bg-white tw-border-b tw-border-br1 tw-px-8 tw-py-6">
         <div className="tw-flex tw-w-full tw-items-center tw-justify-center tw-gap-6">
           <div className="tw-flex tw-w-fit tw-items-center tw-justify-center tw-gap-4">
@@ -34,7 +32,7 @@ const Footer = (props: Props) => {
           <div className="tw-relative tw-flex tw-h-full tw-grow tw-overflow-hidden" />
           <Image src={Duck} alt="" className="tw-w-[36px] tw-h-fit"></Image>
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 };
