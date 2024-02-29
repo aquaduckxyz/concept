@@ -15,7 +15,7 @@ export const EthDenver = () => (
         <Image loading="eager"
           src={Title}
           alt=""
-          className="tw-h-fit tw-max-w-[700px] tw-min-w-[500px] tw-absolute tw-top-24 tw-left-24 max-md:tw-min-w-[300px] max-md:tw-w-3/4 max-md:tw-left-4"></Image>
+          className="tw-h-fit tw-max-w-[700px] tw-min-w-[500px] tw-absolute tw-top-24 tw-left-24 max-md:tw-min-w-[300px] max-md:tw-w-11/12 max-md:tw-left-4"></Image>
         <div className="tw-flex tw-flex-col tw-grow tw-items-center tw-justify-center tw-text-xl tw-gap-14 tw-font-light tw-w-full tw-max-w-[475px] tw-overflow-hidden tw-pt-24 max-md:tw-text-lg ">
           <p className="tw-flex tw-h-fit tw-w-full">
             {`This bridge platform was built for a talk at eth.denver 2024 to showcase a 
