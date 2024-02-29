@@ -40,7 +40,7 @@ export const Form = () => {
   };
 
   return (
-    <div className="tw-relative tw-w-full tw-h-fit tw-max-h-[1000px] tw-px-2 tw-pb-12 tw-overflow-hidden tw-flex-shrink-0 max-md:tw-px-0 max-sm:tw-p-0">
+    <div className="tw-relative tw-w-full tw-h-fit tw-min-h-screen tw-max-h-[1000px] tw-px-2 tw-pb-12 tw-overflow-hidden tw-flex-shrink-0 max-md:tw-px-0 max-sm:tw-p-0">
       <Image
         src={Hero}
         alt=""
