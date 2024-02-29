@@ -11,12 +11,12 @@ import Icons from '@icons/index';
 export const EthDenver = () => (
   <div className="tw-relative tw-w-full tw-min-h-[1000px] tw-h-fit  tw-bg-[#4AA4FF] tw-text-white tw-overflow-hidden tw-flex-shrink-0">
     <div className="tw-flex tw-w-full tw-gap-6 tw-h-full tw-pb-12  max-md:tw-flex-col">
-      <div className="tw-flex tw-relative tw-flex-col tw-w-1/2 tw-items-start tw-justify-center tw-px-24  max-sm:tw-px-4 tw-py-24 max-md:tw-w-full">
+      <div className="tw-flex tw-relative tw-flex-col tw-w-1/2 tw-items-start tw-justify-center tw-px-24 max-md:tw-pb-4 max-sm:tw-px-4 tw-py-24 max-md:tw-w-full">
         <Image loading="eager"
           src={Title}
           alt=""
-          className="tw-h-fit tw-max-w-[700px] tw-min-w-[500px] tw-absolute tw-top-24 tw-left-24 max-md:tw-min-w-[300px] max-md:tw-left-12 max-md:tw-w-3/4"></Image>
-        <div className="tw-flex tw-flex-col tw-grow tw-items-center tw-justify-center tw-text-xl tw-gap-14 tw-font-light tw-w-full tw-max-w-[475px] tw-overflow-hidden tw-pt-24">
+          className="tw-h-fit tw-max-w-[700px] tw-min-w-[500px] tw-absolute tw-top-24 tw-left-24 max-md:tw-min-w-[300px] max-md:tw-w-3/4 max-md:tw-left-4"></Image>
+        <div className="tw-flex tw-flex-col tw-grow tw-items-center tw-justify-center tw-text-xl tw-gap-14 tw-font-light tw-w-full tw-max-w-[475px] tw-overflow-hidden tw-pt-24 max-md:tw-text-lg ">
           <p className="tw-flex tw-h-fit tw-w-full">
             {`This bridge platform was built for a talk at eth.denver 2024 to showcase a 
 cross-chain  transaction between the XRP Ledger and the EVM Sidechain.`}
@@ -38,7 +38,7 @@ cross-chain  transaction between the XRP Ledger and the EVM Sidechain.`}
         </div>
       </div>
 
-      <div className="tw-flex tw-flex-col tw-gap-4 tw-items-end tw-grow tw-pt-6 tw-justify-end max-md:tw-items-end max-md:tw-pl-36">
+      <div className="tw-flex tw-flex-col tw-gap-4 tw-items-end tw-grow tw-pt-6 tw-justify-end max-md:tw-items-end max-md:tw-pl-36 max-sm:tw-pl-14 max-sm:tw-mb-[-24px] max-md:tw-pt-0">
         <Image loading="eager" src={Bridge} alt="" className="tw-h-fit tw-object-contain tw-w-full"></Image>
       </div>
 
