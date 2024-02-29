@@ -40,14 +40,14 @@ export const Form = () => {
   };
 
   return (
-    <div className="tw-relative tw-w-full tw-h-screen tw-max-w-[1300px] tw-max-h-[1000px] tw-px-2 tw-pb-12 tw-overflow-hidden">
+    <div className="tw-relative tw-w-full tw-h-fit tw-max-h-[1000px] tw-px-2 tw-pb-12 tw-overflow-hidden tw-flex-shrink-0 max-md:tw-px-0 max-sm:tw-p-0">
       <Image
         src={Hero}
         alt=""
-        className="tw-h-fit tw-w-full tw-max-w-[1300px] tw-object-cover tw-absolute tw-top-[70px] tw-left-0 tw-z-0"></Image>
+        className="tw-h-fit tw-w-full tw-object-cover tw-absolute tw-top-[70px] tw-left-0 tw-z-0 max-sm:tw-hidden"></Image>
 
-      <div className="tw-relative tw-flex tw-w-full tw-flex-col tw-items-center tw-justify-center tw-gap-6 tw-h-full tw-px-2 tw-mt-[70px]">
-        <div className="tw-relative tw-max-w-[500px] tw-w-11/12 tw-h-fit tw-rounded-xl tw-border-2 tw-border-[#4AA4FF] tw-bg-white tw-p-6 tw-pt-20 tw-overflow-hidden">
+      <div className="tw-relative tw-flex tw-w-full tw-flex-col tw-items-center tw-justify-center tw-gap-6 tw-h-full tw-px-2 tw-mt-[70px] max-md:tw-p-0 max-sm:tw-justify-start">
+        <div className="tw-relative tw-max-w-[500px] tw-w-full tw-h-fit tw-rounded-xl tw-border-2 tw-border-[#4AA4FF] tw-bg-white tw-p-6 tw-pt-20 tw-overflow-hidden max-sm:tw-rounded-none max-sm:tw-border-0 max-sm:tw-max-w-[1000px]">
           <div className="tw-absolute tw-w-full tw-h-[64px] tw-bg-gray-50 tw-top-0 tw-left-0 tw-border-b-1 tw-border-gray-200"></div>
           <Image
             src={Friends}
@@ -63,14 +63,14 @@ export const Form = () => {
                 </div>
 
                 <div className="tw-flex tw-h-full tw-w-full tw-grow tw-flex-col tw-justify-center tw-pt-32  tw-bg-[#4AA4FF]">
-                  <div className="tw-relative tw-h-fit tw-w-full tw-px-12 tw-pb-2 tw-bg-[#4AA4FF] tw-text-[#4AA4FF]">
+                  <div className="tw-relative tw-h-fit tw-w-full tw-px-12 max-sm:tw-px-4 tw-pb-2 tw-bg-[#4AA4FF] tw-text-[#4AA4FF]">
                     <div className="tw-absolute -tw-top-5 tw-text-xs tw-uppercase tw-tracking-widest tw-text-white">
                       source chain
                     </div>
                     <div className="tw-flex tw-h-16 tw-w-full tw-flex-row tw-items-center tw-justify-center tw-overflow-hidden tw-rounded-md tw-border tw-border-br1 tw-bg-white hover:tw-cursor-pointer hover:tw-bg-tint">
                       <div
                         className={`tw-flex tw-h-full tw-w-full tw-items-center tw-gap-4 tw-px-3 tw-py-3`}>
-                        <div className="tw-flex tw-aspect-square tw-h-full tw-shrink-0  tw-items-center tw-justify-center tw-overflow-hidden tw-rounded-md tw-border tw-border-br1">
+                        <div className="tw-flex tw-aspect-square tw-h-full tw-shrink-0 tw-items-center tw-justify-center tw-overflow-hidden tw-rounded-md tw-border tw-border-br1">
                           <img src={networks[0]?.img} alt="" className="tw-h-full tw-w-full" />
                         </div>
                         <div className="tw-flex tw-grow tw-flex-col tw-overflow-hidden">
@@ -96,7 +96,7 @@ export const Form = () => {
                     </div>
                   </div>
 
-                  <div className="tw-relative tw-w-full tw-flex-shrink-0 tw-grow tw-bg-white tw-px-12 tw-pt-2 tw-text-[#4AA4FF]">
+                  <div className="tw-relative tw-w-full tw-flex-shrink-0 tw-grow tw-bg-white tw-px-12 max-sm:tw-px-4 tw-pt-2 tw-text-[#4AA4FF]">
                     <div className="tw-absolute -tw-top-3 tw-text-xs tw-uppercase tw-tracking-widest">
                       destination chain
                     </div>
@@ -124,7 +124,7 @@ export const Form = () => {
                 </div>
               </div>
               <div
-                className={`tw-flex tw-h-fit tw-w-full tw-flex-shrink-0 tw-grow tw-flex-col tw-gap-2 tw-bg-white tw-px-12 tw-pb-8 tw-pt-4 tw-text-t1`}>
+                className={`tw-flex tw-h-fit tw-w-full tw-flex-shrink-0 tw-grow tw-flex-col tw-gap-2 tw-bg-white tw-px-12  max-sm:tw-px-4 tw-pb-8 tw-pt-4 tw-text-t1`}>
                 <div className="tw-flex tw-h-full tw-w-full tw-flex-col tw-gap-4 tw-text-t1">
                   <div className="tw-grid tw-w-full tw-grid-cols-2 tw-items-center tw-justify-center tw-gap-2 tw-rounded-md tw-border tw-border-gray-200 tw-p-3 tw-text-xxs tw-font-medium tw-uppercase tw-tracking-widest">
                     <div>witness</div>

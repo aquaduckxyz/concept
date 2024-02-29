@@ -8,19 +8,19 @@ import Line from 'src/components/general/assets/images/png/line-hero.png';
 export const Chains = () => (
   <div className="tw-w-fit tw-h-fit tw-relative tw-items-center tw-flex-shrink-0">
     <div className="tw-flex tw-flex-col tw-w-full tw-gap-6 tw-h-full tw-overflow-hidden">
-      <Image
+      <Image loading="eager"
         src={Line}
         alt=""
         className="tw-h-fit tw-w-[600px] tw-absolute tw-top-[-68px] tw-left-12 tw-z-30"></Image>
 
       <div className="tw-relative tw-w-full tw-h-fit tw-max-w-[1300px] tw-bg-white tw-text-[#4AA4FF] tw-pb-[150px]">
-        <div className="tw-flex tw-relative tw-flex-col tw-w-full tw-items-center tw-justify-center tw-px-24 tw-py-24">
+        <div className="tw-flex tw-relative tw-flex-col tw-w-full tw-items-center tw-justify-center tw-px-24 tw-py-24 max-md:tw-px-4">
           <div className="tw-flex tw-justify-end tw-w-full tw-px-8 tw-p-12">
-            <Image src={Title} alt="" className="tw-h-fit tw-w-[360px]"></Image>
+            <Image loading="eager" src={Title} alt="" className="tw-h-fit tw-w-[360px]"></Image>
           </div>
 
-          <div className="tw-flex tw-flex-col tw-grow tw-items-center tw-justify-start tw-text-2xl tw-gap-12 tw-font-light tw-w-full tw-p-8 tw-pt-12">
-            <Image src={Comparision} alt="" className="tw-h-fit tw-w-full"></Image>
+          <div className="tw-flex tw-flex-col tw-grow tw-items-center tw-justify-start tw-text-2xl tw-gap-12 tw-font-light tw-w-full tw-p-8 tw-pt-12 max-md:tw-p-1">
+            <Image loading="eager" src={Comparision} alt="" className="tw-h-fit tw-w-full"></Image>
           </div>
         </div>
         {/*       <div className="tw-w-full tw-flex tw-justify-end">

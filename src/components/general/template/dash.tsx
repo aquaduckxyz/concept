@@ -18,7 +18,7 @@ const Dash = ({ children }: Props) => {
             <div className="tw-flex tw-grow tw-flex-col">
               <Header />
               <div className="tw-z-10 tw-w-full tw-grow tw-overflow-y-auto tw-items-center tw-flex tw-flex-col">
-                <div className="tw-relativetw-w-full tw-flex tw-max-w-[1300px] tw-flex-col tw-h-fit tw-items-center tw-border-r tw-border-l tw-border-[#4AA4FF]">
+                <div className="tw-relative tw-w-full tw-flex tw-max-w-[1300px] tw-flex-col tw-h-fit tw-items-center tw-border-r tw-border-l tw-border-[#4AA4FF]">
                   {children}
                   <Footer />
                 </div>

@@ -12,15 +12,15 @@ import Icons from '@icons/index';
 export const Features = () => (
   <div className="tw-relative tw-w-full tw-h-fit tw-bg-[#FFFCA9] tw-text-black tw-pb-24 tw-flex-shrink-0">
     <div className="tw-flex tw-w-full tw-gap-6 tw-h-full tw-pb-12">
-      <div className="tw-flex tw-relative tw-flex-col tw-w-full tw-items-center tw-justify-center tw-px-24">
+      <div className="tw-flex tw-relative tw-flex-col tw-w-full tw-items-center tw-justify-center tw-px-24 max-sm:tw-px-6">
         <div className="tw-flex tw-justify-start tw-w-full tw-px-8 tw-p-12">
-          <Image src={Title} alt="" className="tw-h-fit tw-w-[480px]"></Image>
+          <Image loading="eager" src={Title} alt="" className="tw-h-fit tw-w-[480px]"></Image>
         </div>
 
-        <div className="tw-flex tw-flex-col tw-grow tw-items-center tw-justify-center tw-text-2xl tw-font-light tw-w-full tw-px-12">
-          <div className="tw-grid tw-grid-cols-2 tw-gap-20 tw-w-full tw-text-sm">
+        <div className="tw-flex tw-flex-col tw-grow tw-items-center tw-justify-center tw-text-2xl tw-font-light tw-w-full tw-px-12 max-md:tw-px-4">
+          <div className="tw-grid tw-grid-cols-2 tw-gap-20 tw-w-full tw-text-sm max-md:tw-grid-cols-1  max-md:tw-gap-10">
             <div className="tw-col-span-1 tw-w-full tw-h-fit tw-pt-12 tw-relative">
-              <Image
+              <Image loading="eager"
                 src={Ease}
                 alt=""
                 className="tw-h-fit tw-w-[91px] tw-absolute tw-top-[-12px] tw-right-0"></Image>
@@ -28,7 +28,7 @@ export const Features = () => (
               <p>{`Send assets between chains with only one-click. Our bridge only requires the installation of a single wallet to use to platform. This enhances the user experience when completing a jump.`}</p>
             </div>
             <div className=" tw-col-span-1 tw-w-full tw-h-fit tw-pt-12 tw-relative">
-              <Image
+              <Image loading="eager"
                 src={Censorship}
                 alt=""
                 className="tw-h-fit tw-w-[91px] tw-absolute tw-top-[-12px] tw-right-0"></Image>
@@ -36,7 +36,7 @@ export const Features = () => (
               <p>{`The nodes within the bridge ecosystem are run by unique entities with differing opinions and beliefs. Thus, services are less likely to be stopped for political or moral reasons.`}</p>
             </div>
             <div className="tw-col-span-1 tw-w-full tw-h-fit tw-pt-12 tw-relative">
-              <Image
+              <Image loading="eager"
                 src={Secure}
                 alt=""
                 className="tw-h-fit tw-w-[91px] tw-absolute tw-top-[-12px] tw-right-0"></Image>
@@ -44,7 +44,7 @@ export const Features = () => (
               <p>{`The bridging has been designed by RippleX engineers and audited by .... for scalability and security. This amendment has gone through a rigorous review by network validators and approved.`}</p>
             </div>
             <div className="tw-col-span-1 tw-w-full tw-h-fit tw-pt-12 tw-relative">
-              <Image
+              <Image loading="eager"
                 src={Decentralized}
                 alt=""
                 className="tw-h-fit tw-w-[91px] tw-absolute tw-top-[-12px] tw-right-0"></Image>
