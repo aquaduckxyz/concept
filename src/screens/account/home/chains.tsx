@@ -11,7 +11,7 @@ export const Chains = () => (
       <Image loading="eager"
         src={Line}
         alt=""
-        className="tw-h-fit tw-w-[600px] tw-absolute tw-top-[-68px] tw-left-12 tw-z-30"></Image>
+        className="tw-h-fit tw-w-[600px] tw-absolute tw-top-[-68px] tw-left-0 tw-z-30"></Image>
 
       <div className="tw-relative tw-w-full tw-h-fit tw-max-w-[1300px] tw-bg-white tw-text-[#4AA4FF] tw-pb-[150px]">
         <div className="tw-flex tw-relative tw-flex-col tw-w-full tw-items-center tw-justify-center tw-px-24 tw-py-24 max-md:tw-px-4">

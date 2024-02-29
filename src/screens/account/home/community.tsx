@@ -16,7 +16,8 @@ export const Community = () => (
 
         <div className="tw-z-30 tw-flex tw-flex-col tw-grow tw-items-center tw-justify-center tw-text-2xl tw-font-light tw-w-full tw-pb-8">
           <div className="tw-grid tw-grid-cols-4 tw-gap-8 tw-w-full tw-text-sm max-md:tw-grid-cols-2 max-sm:tw-grid-cols-1 max-sm:tw-w-3/4">
-            <div className="tw-relative tw-col-span-1 tw-aspect-square tw-w-full tw-border-2 tw-bg-white tw-border-[#4AA4FF] tw-rounded-lg tw-flex tw-flex-col tw-justify-center tw-items-center tw-shadow-[3.469px_3.469px_0px_0px_#1D8DFF]">
+            <div className="tw-relative tw-col-span-1 tw-aspect-square tw-w-full tw-border-2 tw-bg-white tw-border-[#4AA4FF] tw-rounded-lg tw-flex tw-flex-col tw-justify-center tw-items-center tw-shadow-[3.469px_3.469px_0px_0px_#1D8DFF] hover:tw-bg-[#FFF846] hover:tw-cursor-pointer"
+            onClick={() => window.open('https://twitter.com/aquaduckxyz', 'blank')}>
               <div className="tw-absolute tw-top-8 tw-w-1/2 tw-aspect-square tw-rounded-full tw-border-2 tw-border-[#4AA4FF] tw-flex tw-justify-center tw-items-center">
                 <Icons.XTwitter className="tw-aspect-square tw-h-12 tw-fill-[#4AA4FF] hover:tw-cursor-pointer" />
               </div>
@@ -25,7 +26,7 @@ export const Community = () => (
               </div>
             </div>
 
-            <div className="tw-relative tw-col-span-1 tw-aspect-square tw-w-full tw-border-2 tw-bg-white tw-border-[#4AA4FF] tw-rounded-lg tw-flex tw-flex-col tw-justify-center tw-items-center tw-shadow-[3.469px_3.469px_0px_0px_#1D8DFF]">
+            <div className="tw-relative tw-col-span-1 tw-aspect-square tw-w-full tw-border-2 tw-bg-white tw-border-[#4AA4FF] tw-rounded-lg tw-flex tw-flex-col tw-justify-center tw-items-center tw-shadow-[3.469px_3.469px_0px_0px_#1D8DFF] hover:tw-bg-[#FFF846] hover:tw-cursor-pointer"          /* onClick={() => window.open('https://x.com/aquaduckxyz', 'blank')} */>
               <div className="tw-absolute tw-top-8 tw-w-1/2 tw-aspect-square tw-rounded-full tw-border-2 tw-border-[#4AA4FF] tw-flex tw-justify-center tw-items-center">
                 <Icons.Discord className="tw-aspect-square tw-h-12 tw-fill-[#4AA4FF] hover:tw-cursor-pointer" />
               </div>
@@ -34,7 +35,7 @@ export const Community = () => (
               </div>
             </div>
 
-            <div className="tw-relative tw-col-span-1 tw-aspect-square tw-w-full tw-border-2 tw-bg-white tw-border-[#4AA4FF] tw-rounded-lg tw-flex tw-flex-col tw-justify-center tw-items-center tw-shadow-[3.469px_3.469px_0px_0px_#1D8DFF]">
+            <div className="tw-relative tw-col-span-1 tw-aspect-square tw-w-full tw-border-2 tw-bg-white tw-border-[#4AA4FF] tw-rounded-lg tw-flex tw-flex-col tw-justify-center tw-items-center tw-shadow-[3.469px_3.469px_0px_0px_#1D8DFF] hover:tw-bg-[#FFF846] hover:tw-cursor-pointer"          onClick={() => window.open('https://github.com/aquaduckxyz', 'blank')}>
               <div className="tw-absolute tw-top-8 tw-w-1/2 tw-aspect-square tw-rounded-full tw-border-2 tw-border-[#4AA4FF] tw-flex tw-justify-center tw-items-center">
                 <Icons.Github className="tw-aspect-square tw-h-12 tw-fill-[#4AA4FF] hover:tw-cursor-pointer" />{' '}
               </div>
@@ -43,7 +44,7 @@ export const Community = () => (
               </div>
             </div>
 
-            <div className="tw-relative tw-col-span-1 tw-aspect-square tw-w-full tw-border-2 tw-bg-white tw-border-[#4AA4FF] tw-rounded-lg tw-flex tw-flex-col tw-justify-center tw-items-center tw-shadow-[3.469px_3.469px_0px_0px_#1D8DFF]">
+            <div className="tw-relative tw-col-span-1 tw-aspect-square tw-w-full tw-border-2 tw-bg-white tw-border-[#4AA4FF] tw-rounded-lg tw-flex tw-flex-col tw-justify-center tw-items-center tw-shadow-[3.469px_3.469px_0px_0px_#1D8DFF] hover:tw-bg-[#FFF846] hover:tw-cursor-pointer"         /*  onClick={() => window.open('https://x.com/aquaduckxyz', 'blank')} */>
               <div className="tw-absolute tw-top-8 tw-w-1/2 tw-aspect-square tw-rounded-full tw-border-2 tw-border-[#4AA4FF] tw-flex tw-justify-center tw-items-center">
                 <Icons.Clubhouse className="tw-aspect-square tw-h-12 tw-fill-[#4AA4FF] hover:tw-cursor-pointer" />
               </div>
