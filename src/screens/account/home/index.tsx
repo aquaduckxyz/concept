@@ -11,7 +11,6 @@ import Meta from '@meta/index';
 const Index = () => {
   return (
     <>
-        <Meta/>
       <Landing />
       <EthDenver />
       <Chains />

@@ -6,7 +6,6 @@ import { Form } from './form';
 const Index = () => {
   return (
     <>
-    <Meta/>
       <Form />
     </>
   );
