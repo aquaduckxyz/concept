@@ -3,6 +3,7 @@ import Image from 'next/image';
 
 import Hero from 'src/components/general/assets/images/png/hero-bridge.png';
 import Title from 'src/components/general/assets/images/png/built-for-ethdenver.png';
+import Bridge from 'src/components/general/assets/video/gif/bridge.gif';
 import DuckButton from 'src/components/general/assets/images/png/duck-button.png';
 
 import Icons from '@icons/index';
@@ -38,7 +39,7 @@ cross-chain  transaction between the XRP Ledger and the EVM Sidechain.`}
       </div>
 
       <div className="tw-flex tw-flex-col tw-gap-4 tw-items-end tw-grow tw-pt-6 tw-justify-end max-md:tw-items-end max-md:tw-pl-36">
-        <Image loading="eager" src={Hero} alt="" className="tw-h-fit tw-object-contain tw-w-full"></Image>
+        <Image loading="eager" src={Bridge} alt="" className="tw-h-fit tw-object-contain tw-w-full"></Image>
       </div>
 
       <div className="tw-absolute tw-bottom-0 tw-w-0 tw-h-0 tw-border-[150px] tw-border-x-[1400px] tw-border-transparent tw-border-b-white tw-border-t-0"></div>
