@@ -25,7 +25,7 @@ export const Features = () => (
                 alt=""
                 className="tw-h-fit tw-w-[91px] tw-absolute tw-top-[-12px] tw-right-0"></Image>
               <div className="tw-font-semibold tw-text-lg tw-pb-2">Ease</div>
-              <p>{`Send assets between chains with only one-click. Our bridge only requires the installation of a single wallet to use to platform. This enhances the user experience when completing a jump.`}</p>
+              <p>{`Send assets between chains with one-click. Our bridge only requires the installation of a single wallet to use the bridge. This enhances the user experience, ensuring that you can transfer funds with convinence. No fluff, no bloat.`}</p>
             </div>
             <div className=" tw-col-span-1 tw-w-full tw-h-fit tw-pt-12 tw-relative">
               <Image loading="eager"
@@ -41,7 +41,7 @@ export const Features = () => (
                 alt=""
                 className="tw-h-fit tw-w-[91px] tw-absolute tw-top-[-12px] tw-right-0"></Image>
               <div className="tw-font-semibold tw-text-lg tw-pb-2">Secure</div>
-              <p>{`The bridging has been designed by RippleX engineers and audited by .... for scalability and security. This amendment has gone through a rigorous review by network validators and approved.`}</p>
+              <p>{`The bridging has been designed by RippleX engineers and audited for scalability and security. This amendment has gone through a rigorous review by network validators before approval to the mainnet.`}</p>
             </div>
             <div className="tw-col-span-1 tw-w-full tw-h-fit tw-pt-12 tw-relative">
               <Image loading="eager"
@@ -49,7 +49,7 @@ export const Features = () => (
                 alt=""
                 className="tw-h-fit tw-w-[91px] tw-absolute tw-top-[-12px] tw-right-0"></Image>
               <div className="tw-font-semibold tw-text-lg tw-pb-2">Decentralized</div>
-              <p>{`We have adopted the xls38d protocol which allows anyone to deploy a connector node support the bridge. These connector nodes are refer to as “witness” servers, which are responsible for witnessing a change on one chain and reflecting it over to a targeted chain.`}</p>
+              <p>{`We have adopted the xls38d protocol which allows anyone to deploy a connector node support the bridge. These connector nodes are refer to as “witness” servers, which are responsible for witnessing a change on the origin chain and reflecting it over to the destination chain.`}</p>
             </div>
           </div>
         </div>
