@@ -6,8 +6,13 @@ import Title from 'src/components/general/assets/images/png/bridging-the-gap.png
 import DuckButton from 'src/components/general/assets/images/png/duck-button.png';
 
 import Icons from '@icons/index';
+import { useNavigate } from '@tanstack/react-router';
 
-export const Landing = () => (
+export const Landing = () =>{
+  
+  const nav = useNavigate()
+  
+  return (
   <div className="tw-relative tw-w-full tw-h-screen tw-max-w-[1300px] tw-max-h-[1000px] tw-px-12 tw-pb-12 tw-overflow-hidden tw-flex-shrink-0 max-md:tw-px-1">
     <Image loading="eager"
       src={Hero}
@@ -25,7 +30,7 @@ export const Landing = () => (
       <div className="tw-flex tw-flex-col tw-gap-4 tw-items-end">
         <button
           className="tw-flex tw-h-fit tw-w-fit tw-flex-shrink-0 tw-items-center tw-justify-center tw-gap-4 tw-whitespace-nowrap tw-rounded-2xl tw-bg-t1 tw-stroke-t2 tw-p-4 tw-px-14 tw-uppercase tw-tracking-widest hover:tw-cursor-pointer hover:tw-bg-[#FFF846] tw-bg-white tw-text-[#4AA4FF] tw-overflow-hidden tw-text-xl tw-font-semibold tw-border-[3px] tw-border-[#4AA4FF] tw-leading-none tw-shadow-[3.469px_3.469px_0px_0px_#1D8DFF] max-md:tw-px-6 max-md:tw-text-lg"
-          onClick={() => window.open('https://docs.crossmark.io', 'blank')}>
+          onClick={() => nav({to:'/bridge'})}>
           Get Started
           <Icons.ChevronRight className="tw-aspect-square tw-stroke-[#4AA4FF] tw-h-4 tw-stroke-[3px] hover:tw-cursor-pointer" />
         </button>
@@ -40,3 +45,4 @@ export const Landing = () => (
     </div>
   </div>
 );
+}

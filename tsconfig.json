@@ -24,6 +24,7 @@
       "@store/*": ["src/store/*"],
       "@styles/*": ["src/styles/*"],
       "@common/*": ["src/common/*"],
+      "@meta/*": ["src/components/general/meta/*"],
       "@lib/*": ["src/lib/*"],
       "@components/*": ["src/components/*"],
       "@extension/*": ["src/extension/*"],
