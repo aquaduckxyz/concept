@@ -62,7 +62,7 @@ export const Form = () => {
                   <div className="tw-text-4xl tw-font-bold tw-tracking-wider">10.000</div>
                 </div>
 
-                <div className="tw-flex tw-h-full tw-w-full tw-grow tw-flex-col tw-justify-center tw-pt-32  tw-bg-[#4AA4FF]">
+                <div className="tw-flex tw-h-full tw-w-full tw-grow tw-flex-col tw-justify-center tw-pt-32 tw-bg-[#4AA4FF]">
                   <div className="tw-relative tw-h-fit tw-w-full tw-px-12 max-sm:tw-px-4 tw-pb-2 tw-bg-[#4AA4FF] tw-text-[#4AA4FF]">
                     <div className="tw-absolute -tw-top-5 tw-text-xs tw-uppercase tw-tracking-widest tw-text-white">
                       source chain
@@ -73,13 +73,13 @@ export const Form = () => {
                         <div className="tw-flex tw-aspect-square tw-h-full tw-shrink-0 tw-items-center tw-justify-center tw-overflow-hidden tw-rounded-md tw-border tw-border-br1">
                           <img src={networks[0]?.img} alt="" className="tw-h-full tw-w-full" />
                         </div>
-                        <div className="tw-flex tw-grow tw-flex-col tw-overflow-hidden">
+                        <div className="tw-flex tw-grow tw-flex-col tw-overflow-hidden tw-truncate">
                           <div className="tw-flex tw-gap-2 tw-overflow-hidden tw-truncate tw-align-baseline tw-text-sm tw-font-medium tw-uppercase tw-leading-none tw-tracking-widest">
-                            <div> {networks[0]?.name}</div>
-                            <div className="tw-text-xs tw-text-t3">{networks[0]?.protocol}</div>
+                            <div>{networks[0]?.name}</div>
+                            <div className="tw-text-xs tw-text-t3 tw-w-full">{networks[0]?.protocol}</div>
                           </div>
 
-                          <div className="tw-overflow-hidden tw-truncate tw-text-xxs tw-font-light tw-normal-case tw-tracking-widest">
+                          <div className="tw-overflow-hidden tw-w-full tw-text-xxs tw-font-light tw-normal-case tw-tracking-widest tw-truncate">
                             {networks[0]?.rpc || networks[0]?.wss}
                           </div>
                         </div>
@@ -96,25 +96,25 @@ export const Form = () => {
                     </div>
                   </div>
 
-                  <div className="tw-relative tw-w-full tw-flex-shrink-0 tw-grow tw-bg-white tw-px-12 max-sm:tw-px-4 tw-pt-2 tw-text-[#4AA4FF]">
+                  <div className="tw-relative tw-w-full tw-grow tw-bg-white tw-px-12 max-sm:tw-px-4 tw-pt-2 tw-text-[#4AA4FF] tw-overflow-hidden">
                     <div className="tw-absolute -tw-top-3 tw-text-xs tw-uppercase tw-tracking-widest">
                       destination chain
                     </div>
-                    <div className="tw-flex tw-h-16 tw-w-full tw-flex-row tw-items-center tw-justify-center tw-overflow-hidden tw-rounded-md tw-border tw-border-br1 tw-bg-b1 hover:tw-cursor-pointer hover:tw-bg-tint">
+                    <div className="tw-flex tw-h-16 tw-w-full tw-flex-row tw-items-center tw-justify-center tw-overflow-hidden tw-rounded-md tw-border tw-border-br1 tw-bg-b1 hover:tw-cursor-pointer">
                       <div
-                        className={`tw-flex tw-h-full tw-w-full tw-items-center tw-gap-4 tw-px-3 tw-py-3`}>
-                        <div className="tw-flex tw-aspect-square tw-h-full tw-shrink-0  tw-items-center tw-justify-center tw-overflow-hidden tw-rounded-md tw-border tw-border-br1">
+                        className={`tw-flex tw-h-full tw-w-full tw-items-center tw-gap-4 tw-px-3 tw-py-3 tw-overflow-hidden`}>
+                        <div className="tw-flex tw-aspect-square tw-h-full tw-shrink-0 tw-items-center tw-justify-center tw-overflow-hidden tw-rounded-md tw-border tw-border-br1">
                           <img src={networks[1]?.img} alt="" className="tw-h-full tw-w-full" />
                         </div>
-                        <div className="tw-flex tw-grow tw-flex-col tw-overflow-hidden">
-                          <div className="tw-flex tw-gap-2 tw-overflow-hidden tw-truncate tw-align-baseline tw-text-sm tw-font-medium tw-uppercase tw-leading-none tw-tracking-widest">
+                        <div className="tw-flex tw-grow tw-flex-col tw-truncate">
+                          <div className="tw-flex tw-gap-2 tw-overflow-hidden tw-truncate tw-align-baseline tw-text-sm tw-font-medium tw-uppercase tw-leading-none tw-tracking-widest tw-w-full">
                             <div> {networks[1]?.name}</div>
-                            <div className="tw-text-xs tw-text-gray-300">
+                            <div className="tw-text-xs tw-text-gray-300 tw-w-full tw-truncate">
                               {networks[1]?.protocol}
                             </div>
                           </div>
 
-                          <div className="tw-overflow-hidden tw-truncate tw-text-xxs tw-font-light tw-normal-case tw-tracking-widest">
+                          <div className="tw-w-full tw-truncate tw-text-xxs tw-font-light tw-normal-case tw-tracking-widest">
                             {networks[1]?.rpc || networks[1]?.wss}
                           </div>
                         </div>

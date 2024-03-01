@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 
 import Hero from 'src/components/general/assets/images/png/main-hero.png';
 import Title from 'src/components/general/assets/images/png/bridging-the-gap.png';
 import DuckButton from 'src/components/general/assets/images/png/duck-button.png';
+import Pool1 from 'src/components/general/assets/video/gif/pool.gif';
 
 import Icons from '@icons/index';
 import { useNavigate } from '@tanstack/react-router';
@@ -15,10 +16,9 @@ export const Landing = () =>{
   return (
   <div className="tw-relative tw-w-full tw-h-screen tw-max-w-[1300px] tw-max-h-[1000px] tw-px-12 tw-pb-12 tw-overflow-hidden tw-flex-shrink-0 max-md:tw-px-1">
     <Image loading="eager"
-      src={Hero}
+      src={Pool1}
       alt=""
       className="tw-h-fit tw-w-full tw-max-w-[1300px] tw-object-cover tw-absolute tw-top-[70px] tw-left-0 tw-z-0 max-md:tw-w-[175%]"></Image>
-
     <div className="tw-relative tw-flex tw-w-full tw-flex-col tw-items-end max-md:tw-items-center  max-md:tw-pb-4 tw-justify-end tw-gap-6 tw-h-full tw-pb-24 tw-px-8 max-md:tw-px-1">
       <div className="tw-flex tw-flex-col tw-gap-4 tw-items-end tw-justify-center tw-pb-12">
         <div className="tw-flex tw-h-fit tw-gap-6 tw-text-white tw-drop-shadow tw-font-semibold tw-text-2xl max-sm:tw-text-base">
